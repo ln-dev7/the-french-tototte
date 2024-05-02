@@ -1,8 +1,42 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const tartuffo = localFont({
+  src: [
+    {
+      path: "./fonts/tartuffo-regular.woff2",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "./fonts/tartuffo-bold.woff2",
+      weight: "700",
+      style: "normal",
+    },
+  ],
+  display: "swap",
+  preload: true,
+  variable: "--font-tartuffo",
+});
+
+const gustavo = localFont({
+  src: [
+    {
+      path: "./fonts/gustavo-regular.woff2",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "./fonts/gustavo-bold.woff2",
+      weight: "700",
+      style: "normal",
+    },
+  ],
+  display: "swap",
+  preload: true,
+  variable: "--font-gustavo",
+});
 
 export const metadata: Metadata = {
   title: "The FrenchTototte",
@@ -49,7 +83,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${tartuffo.variable} ${gustavo.variable} font-tartuffo antialiased`}>
+        {children}
+      </body>
     </html>
   );
 }
