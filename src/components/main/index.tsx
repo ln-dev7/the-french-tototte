@@ -1,7 +1,10 @@
 import React from 'react'
+import Hero from './hero'
 
 export default function Main() {
   return (
-    <div>Main</div>
+    <main className='relative'>
+      <Hero />
+    </main>
   )
 }

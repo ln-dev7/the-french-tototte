@@ -12,6 +12,14 @@ const config: Config = {
         tartuffo: ["var(--font-tartuffo)"],
         gustavo: ["var(--font-gustavo)"],
       },
+      colors: {
+        'fg-1': "#30171B",
+        'fg-2': "#5D4043",
+        'fg-3': "#816A6C",
+        'bg-2': "#FAF6F3",
+        'bg-3': "#EBE0D8",
+        'bg-blue': "#EFF1FD",
+      }
     },
   },
   plugins: [],
