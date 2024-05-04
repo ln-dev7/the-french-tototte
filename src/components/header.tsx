@@ -23,8 +23,8 @@ export default function Header() {
             Design By BastiUI
           </a>
         </div>
-        <a href="#" className="bg-fg-2 font-gustavo text-bg-2 py-2 px-8 mix-blend-multiply">
-          Achter
+        <a href="#" className="bg-fg-2 font-medium font-gustavo text-bg-2 py-2 px-8 mix-blend-multiply">
+          Acheter
         </a>
       </div>
     </header>

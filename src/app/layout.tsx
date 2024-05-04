@@ -28,6 +28,11 @@ const gustavo = localFont({
       style: "normal",
     },
     {
+      path: "./fonts/gustavo-medium.woff2",
+      weight: "500",
+      style: "normal",
+    },
+    {
       path: "./fonts/gustavo-bold.woff2",
       weight: "700",
       style: "normal",
