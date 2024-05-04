@@ -16,7 +16,7 @@ export default function Footer() {
           <div className="w-[392px] flex flex-col items-center justify-center gap-12">
             <div className="w-full flex flex-col items-start gap-4">
               <h3 className="text-4xl text-white">votre panier est pret</h3>
-              <p className="text-fg-3 font-gustavo">
+              <p className="text-fg-3 font-gustavo text-base">
                 Récapitulatif de votre commande
               </p>
             </div>
