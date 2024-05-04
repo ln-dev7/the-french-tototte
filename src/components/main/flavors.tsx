@@ -84,6 +84,25 @@ export default function Flavors() {
             </div>
           ))}
         </div>
+        <div className="w-full flex items-center justify-between font-gustavo">
+          <div className="flex flex-col items-start gap-2 w-1/3">
+            <h3 className="text-6xl font-bold">30</h3>
+            <span className="block text-fg-3">
+              Saveurs <br /> disponibles
+            </span>
+          </div>
+          <div className="flex flex-col items-start gap-2 w-1/3">
+            <h3 className="text-6xl font-bold">1</h3>
+            <span className="block text-fg-3">
+              Vertus <br /> médicinales
+            </span>
+          </div>
+          <p className="text-fg-3 w-1/3">
+            Laissez-vous tenter par les saveurs des différents plugs et{" "}
+            <span className="font-bold">découvrez un monde de délices</span>{" "}
+            pour chaque envie.
+          </p>
+        </div>
       </div>
     </div>
   );
