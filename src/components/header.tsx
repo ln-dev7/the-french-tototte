@@ -1,13 +1,28 @@
-import React from "react";
+"use client";
+import React, { useState, useEffect } from "react";
 
 export default function Header() {
+  const [showLogo, setShowLogo] = useState(false);
+
+  useEffect(() => {
+    const toggleVisibility = () => {
+      if (window.scrollY >= window.innerHeight) {
+        setShowLogo(true);
+      } else {
+        setShowLogo(false);
+      }
+    };
+    window.addEventListener("scroll", toggleVisibility);
+    return () => window.removeEventListener("scroll", toggleVisibility);
+  }, []);
+
   return (
     <header className="fixed w-full top-0 flex items-center justify-center z-50">
       <div className="w-full max-w-screen-2xl flex items-center justify-between px-10 py-6">
         <div className="flex items-center justify-start w-[120px]">
           <img src="/icon.svg" alt="logo" className="w-8 h-8" />
         </div>
-        <div className="flex items-center gap-4">
+        <div className={`items-center gap-4  ${showLogo ? "hidden" : "flex"}`}>
           <a
             href="https://x.com/ln_dev7"
             className="underline underline-offset-2"
@@ -23,7 +38,17 @@ export default function Header() {
             Design By BastiUI
           </a>
         </div>
-        <a href="#" className="bg-fg-2 font-medium font-gustavo text-bg-2 py-2 px-8 mix-blend-multiply">
+        <p
+          className={`mix-blend-multiply text-2xl
+          ${showLogo ? "block" : "hidden"}
+        `}
+        >
+          the french tototte
+        </p>
+        <a
+          href="#"
+          className="bg-fg-2 font-medium font-gustavo text-bg-2 py-2 px-8 mix-blend-multiply"
+        >
           Acheter
         </a>
       </div>

@@ -55,7 +55,11 @@ export default function Choice() {
           </Swiper>
           <div className="absolute w-full flex items-center justify-between z-30 top-1/2 -translate-y-1/2 p-4">
             <button onClick={handlePrev}>
-              <img src="/arrow-left.svg" alt="arrow-left" />
+              <img
+                src="/arrow-left.svg"
+                alt="arrow-left"
+                className="rotate-180"
+              />
             </button>
             <button onClick={handleNext}>
               <img src="/arrow-right.svg" alt="arrow-right" />

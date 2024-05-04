@@ -2,6 +2,6 @@ import React from 'react'
 
 export default function Flavors() {
   return (
-    <div>Flavors</div>
+    <div id="flavors">Flavors</div>
   )
 }
