@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  scroll-behavior: smooth;
+}
+
 body {
 }
 
@@ -48,6 +52,7 @@ body {
     "a c d"
     "e e f";
   &-item {
+    position: relative;
     display: flex;
     width: 100%;
     height: 100%;
@@ -55,21 +60,57 @@ body {
     overflow: hidden;
     flex-shrink: 0;
     padding: 2rem;
-    border: 2px solid #fff;
+    cursor: pointer;
+    //border: 2px solid #fff;
     &:nth-child(1) {
       grid-area: a;
+      .bento-item-a-image {
+        transform-origin: center;
+        transition: 0.3s ease-in-out;
+      }
+      &:hover .bento-item-a-image {
+        transform: translateX(30px) scale(1.8) rotate(5deg);
+      }
     }
     &:nth-child(2) {
       grid-area: b;
+      img {
+        transform: translateX(8rem) scale(1.5);
+        transition: 0.3s ease-in-out;
+      }
+      &:hover img {
+        transform: translateX(20rem) scale(2);
+      }
     }
     &:nth-child(3) {
       grid-area: c;
+      .bento-item-c-image {
+        transform-origin: center;
+        transition: 0.3s ease-in-out;
+      }
+      &:hover .bento-item-c-image {
+        transform: translateX(-50%) scale(1.2) rotate(10deg);
+      }
     }
     &:nth-child(4) {
       grid-area: d;
+      .bento-item-d-image {
+        transform-origin: center;
+        transition: 0.3s ease-in-out;
+      }
+      &:hover .bento-item-d-image {
+        transform: translateY(-30px) scale(1.2) rotate(5deg);
+      }
     }
     &:nth-child(5) {
       grid-area: e;
+      img {
+        transform: translateX(18rem) scale(1.6);
+        transition: 0.3s ease-in-out;
+      }
+      &:hover img {
+        transform: translateX(12rem) scale(1.6);
+      }
     }
     &:nth-child(6) {
       grid-area: f;
