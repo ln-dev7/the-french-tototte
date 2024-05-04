@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Mobile() {
   return (
-    <main className="w-full flex flex-col items-center gap-8 justify-center min-h-screen bg-bg-blue p-4">
+    <main className="w-full flex flex-col items-center gap-8 justify-center min-h-screen p-4">
       <img src="/logo.svg" alt="logo" className="w-28" />
       <div className="flex flex-col items-center gap-2">
         <p className="font-gustavo text-center">

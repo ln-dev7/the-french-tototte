@@ -6,12 +6,12 @@ import Mobile from "@/components/mobile";
 export default function Home() {
   return (
     <>
-      <div className="relative hidden lg:block">
+      <div className="relative hidden xl:block bg-bg-2">
         <Header />
         <Main />
         <Footer />
       </div>
-      <div className="lg:hidden block">
+      <div className="xl:hidden block bg-bg-blue">
         <Mobile />
       </div>
     </>

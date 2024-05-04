@@ -3,7 +3,7 @@ import React from "react";
 export default function Header() {
   return (
     <header className="fixed w-full top-0 flex items-center justify-center z-20">
-      <div className="w-full max-w-7xl flex items-center justify-between p-4">
+      <div className="w-full max-w-screen-2xl flex items-center justify-between p-4">
         <div className="flex items-center justify-start w-[120px]">
           <img src="/icon.svg" alt="logo" className="w-8 h-8" />
         </div>
@@ -23,7 +23,7 @@ export default function Header() {
             Design By BastiUI
           </a>
         </div>
-        <a href="#" className="bg-fg-2 font-gustavo text-bg-2 py-2 px-8">
+        <a href="#" className="bg-fg-2 font-gustavo text-bg-2 py-2 px-8 mix-blend-multiply">
           Achter
         </a>
       </div>
