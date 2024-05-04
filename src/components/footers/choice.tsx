@@ -91,13 +91,13 @@ export default function Choice() {
                   <div className="flex items-center justify-center rounded-full border-2 border-fg-1 cursor-pointer">
                     <img src="/finition-1.svg" alt="finition" />
                   </div>
-                  <div className="flex items-center justify-center rounded-full border-2 border-transparent cursor-pointer">
+                  <div className="flex items-center justify-center rounded-full border-2 border-transparent cursor-not-allowed">
                     <img src="/finition-2.svg" alt="finition" />
                   </div>
-                  <div className="flex items-center justify-center rounded-full border-2 border-transparent cursor-pointer">
+                  <div className="flex items-center justify-center rounded-full border-2 border-transparent cursor-not-allowed">
                     <img src="/finition-3.svg" alt="finition" />
                   </div>
-                  <div className="flex items-center justify-center rounded-full border-2 border-transparent cursor-pointer">
+                  <div className="flex items-center justify-center rounded-full border-2 border-transparent cursor-not-allowed">
                     <img src="/finition-4.svg" alt="finition" />
                   </div>
                 </div>
@@ -113,13 +113,13 @@ export default function Choice() {
                   <div className="flex items-center justify-center rounded-full border-2 border-fg-1 cursor-pointer">
                     <img src="/ornement-1.svg" alt="ornement" />
                   </div>
-                  <div className="flex items-center justify-center rounded-full border-2 border-transparent cursor-pointer">
+                  <div className="flex items-center justify-center rounded-full border-2 border-transparent cursor-not-allowed">
                     <img src="/ornement-2.svg" alt="ornement" />
                   </div>
-                  <div className="flex items-center justify-center rounded-full border-2 border-transparent cursor-pointer">
+                  <div className="flex items-center justify-center rounded-full border-2 border-transparent cursor-not-allowed">
                     <img src="/ornement-3.svg" alt="ornement" />
                   </div>
-                  <div className="flex items-center justify-center rounded-full border-2 border-transparent cursor-pointer">
+                  <div className="flex items-center justify-center rounded-full border-2 border-transparent cursor-not-allowed">
                     <img src="/ornement-4.svg" alt="ornement" />
                   </div>
                 </div>

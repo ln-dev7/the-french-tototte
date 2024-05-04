@@ -6,11 +6,11 @@ export default function Mobile() {
       <img src="/logo.svg" alt="logo" className="w-28" />
       <div className="flex flex-col items-center gap-2">
         <p className="font-gustavo text-center">
-          Frérot, j&apos;ai eu la flemme de faire le design pour mobile, mais
+          Hello l&apos;ami(e), j&apos;ai eu la flemme de faire la version mobile, mais
           t&apos;inquiète, ça va arriver un jour.
         </p>
         <p className="font-gustavo text-center">
-          Entre temps, tu peux toujours visiter le site sur un ordinateur 😉
+          Entre temps, tu peux toujours visiter le site sur un écran plus large 😉
         </p>
         <p className="font-gustavo text-center">
           Ou alors contribuer sur{" "}

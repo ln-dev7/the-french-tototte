@@ -44,6 +44,49 @@ body {
   }
 }
 
+.flavor {
+  &-image {
+    transition: 0.3s ease-in-out;
+  }
+  &-shadow {
+    transition: 0.3s ease-in-out;
+  }
+  &-card {
+    transition: 0.3s ease-in-out;
+  }
+  &:hover {
+    .flavor-image {
+      transform: translateY(-30px);
+    }
+    .flavor-shadow {
+      transform: scale(1.2);
+    }
+    .flavor-card {
+      opacity: 1;
+    }
+  }
+  &:nth-child(1),
+  &:nth-child(2),
+  &:nth-child(3),
+  &:nth-child(4) {
+    &:hover {
+      .flavor-card {
+        transform: scale(1.2) translateX(50%) translateY(-40px);
+      }
+    }
+  }
+  &:nth-child(5),
+  &:nth-child(6),
+  &:nth-child(7),
+  &:nth-child(8) {
+    &:hover {
+      .flavor-card {
+        transform: scale(1.2) translateX(-50%) translateY(-40px);
+      }
+    }
+  }
+}
+
 .bento {
   display: grid;
   grid-gap: 1rem;
