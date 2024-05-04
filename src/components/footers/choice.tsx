@@ -67,7 +67,7 @@ export default function Choice() {
           </div>
         </div>
       </div>
-      <div className="w-full flex items-center justify-center bg-bg-blue">
+      <div id="choice" className="w-full flex items-center justify-center bg-bg-blue">
         <div className="w-full max-w-screen-2xl flex items-center justify-center px-10 py-40 gap-24">
           <div className="w-full flex items-center justify-end">
             <div className="w-[392px] flex flex-col items-center justify-center gap-16">

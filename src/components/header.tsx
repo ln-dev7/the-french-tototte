@@ -46,7 +46,7 @@ export default function Header() {
           the french tototte
         </p>
         <a
-          href="#"
+          href="#choice"
           className="bg-fg-2 font-medium font-gustavo text-bg-2 py-2 px-8 mix-blend-multiply"
         >
           Acheter
