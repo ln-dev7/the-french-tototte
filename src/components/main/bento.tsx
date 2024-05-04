@@ -4,9 +4,9 @@ export default function Bento() {
   return (
     <div
       id="bento"
-      className="relative w-full flex items-center justify-center bg-choice-container"
+      className="relative w-full flex items-center justify-center"
     >
-      <div className="w-full max-w-screen-2xl flex items-center justify-center px-10 py-14">
+      <div className="w-full max-w-screen-2xl flex items-center justify-center px-10 pt-40 pb-10">
         <div className="bento w-[976px] h-[926px]">
           <div className="bento-item">
             <img
