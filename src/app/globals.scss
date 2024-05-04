@@ -40,6 +40,43 @@ body {
   }
 }
 
+.bento {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-areas:
+    "a b b"
+    "a c d"
+    "e e f";
+  &-item {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    flex-shrink: 0;
+    padding: 2rem;
+    border: 2px solid #fff;
+    &:nth-child(1) {
+      grid-area: a;
+    }
+    &:nth-child(2) {
+      grid-area: b;
+    }
+    &:nth-child(3) {
+      grid-area: c;
+    }
+    &:nth-child(4) {
+      grid-area: d;
+    }
+    &:nth-child(5) {
+      grid-area: e;
+    }
+    &:nth-child(6) {
+      grid-area: f;
+    }
+  }
+}
+
 .swiper {
   height: 100% !important;
   width: 100% !important;
@@ -56,7 +93,7 @@ body {
     }
   }
   .swiper-pagination-bullet {
-    opacity: .25;
+    opacity: 0.25;
   }
   .swiper-pagination-bullet-active {
     background: #30171b;

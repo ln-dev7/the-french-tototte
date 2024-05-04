@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Header() {
   return (
-    <header className="fixed w-full top-0 flex items-center justify-center z-20">
+    <header className="fixed w-full top-0 flex items-center justify-center z-50">
       <div className="w-full max-w-screen-2xl flex items-center justify-between px-10 py-6">
         <div className="flex items-center justify-start w-[120px]">
           <img src="/icon.svg" alt="logo" className="w-8 h-8" />

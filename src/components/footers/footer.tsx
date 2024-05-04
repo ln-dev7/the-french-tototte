@@ -81,7 +81,7 @@ export default function Footer() {
         <div className="w-full flex flex-col items-start gap-2">
           <div className="text-fg-3 flex items-center gap-2">
             <a
-              href="https://github.com/ln-dev7/the-french-tototte"
+              href="https://github.com/ln-dev7"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -131,6 +131,7 @@ export default function Footer() {
                 print par Lunath & Packaging par Illusion
               </p>
             </div>
+              <a href="http://github.com/the-french-tototte" className="underline underline-offset-2 text-white" target="_blank">GitHub</a>
           </div>
         </div>
       </div>

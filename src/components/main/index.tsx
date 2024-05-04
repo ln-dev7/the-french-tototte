@@ -4,7 +4,7 @@ import Bento from './bento'
 
 export default function Main() {
   return (
-    <main className=''>
+    <main className='pb-40'>
       <Hero />
       <Bento />
     </main>
