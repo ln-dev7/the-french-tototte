@@ -11,8 +11,8 @@ import React from "react";
 export default function Footer() {
   return (
     <footer className="relative w-full flex items-center justify-center bg-fg-1">
-      <div className="z-20 w-full max-w-screen-2xl flex flex-col items-center justify-center px-4 py-14 gap-40">
-        <div className="w-full shrink-0 flex items-center justify-end">
+      <div className="z-20 w-full max-w-screen-2xl flex flex-col items-center justify-center px-10 py-14 gap-40">
+        <div className="w-full flex items-center justify-end">
           <div className="w-[392px] flex flex-col items-center justify-center gap-12">
             <div className="w-full flex flex-col items-start gap-4">
               <h3 className="text-4xl text-white">votre panier est pret</h3>

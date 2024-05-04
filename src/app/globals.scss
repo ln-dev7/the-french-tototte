@@ -20,10 +20,6 @@ body {
   transform: rotate(180deg);
 }
 
-.bg-choice-container {
-  background: linear-gradient(180deg, rgba(239, 241, 253, 0) 0%, #eff1fd 45%);
-}
-
 .hover-link {
   position: relative;
   &::before {
@@ -41,5 +37,29 @@ body {
   }
   &:hover::before {
     transform: scaleX(1);
+  }
+}
+
+.swiper {
+  height: 100% !important;
+  width: 100% !important;
+  overflow: hidden !important;
+  .swiper-container {
+    height: 100% !important;
+    width: 100% !important;
+    .swiper-wrapper {
+      height: 100% !important;
+      .swiper-slide {
+        height: 100% !important;
+        width: 100% !important;
+      }
+    }
+  }
+  .swiper-pagination-bullet {
+    opacity: .25;
+  }
+  .swiper-pagination-bullet-active {
+    background: #30171b;
+    opacity: 1;
   }
 }

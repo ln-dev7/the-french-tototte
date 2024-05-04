@@ -1,6 +1,5 @@
 import React from 'react'
 import Hero from './hero'
-import Choice from './choice'
 import Bento from './bento'
 
 export default function Main() {
@@ -8,7 +7,6 @@ export default function Main() {
     <main className=''>
       <Hero />
       <Bento />
-      <Choice />
     </main>
   )
 }

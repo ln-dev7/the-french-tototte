@@ -20,7 +20,7 @@ export default function Hero() {
         </h1>
         <a
           href="#"
-          className="text-fg-2 py-2 px-4 font-gustavo mix-blend-multiply hover-link"
+          className="text-fg-2 py-2 px-10 font-gustavo mix-blend-multiply hover-link"
         >
           découvrir
         </a>

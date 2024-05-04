@@ -1,4 +1,4 @@
-import Footer from "@/components/footer";
+import Footers from "@/components/footers";
 import Header from "@/components/header";
 import Main from "@/components/main";
 import Mobile from "@/components/mobile";
@@ -9,7 +9,7 @@ export default function Home() {
       <div className="relative hidden xl:block bg-bg-2">
         <Header />
         <Main />
-        <Footer />
+        <Footers />
       </div>
       <div className="xl:hidden block bg-bg-blue">
         <Mobile />
