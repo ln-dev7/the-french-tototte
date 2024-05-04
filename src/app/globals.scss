@@ -14,10 +14,14 @@ body {
 .banner-mask {
   background: linear-gradient(
     180deg,
-    rgba($color: #FFF, $alpha: 0.6) 0%,
-    rgba($color: #FFF, $alpha: 0) 60%
+    rgba($color: #fff, $alpha: 0.6) 0%,
+    rgba($color: #fff, $alpha: 0) 60%
   );
   transform: rotate(180deg);
+}
+
+.bg-choice-container {
+  background: linear-gradient(180deg, rgba(239, 241, 253, 0) 0%, #eff1fd 45%);
 }
 
 .hover-link {

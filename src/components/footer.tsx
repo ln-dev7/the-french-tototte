@@ -1,4 +1,11 @@
-import { Instagram, Linkedin, Store, Twitter, Youtube } from "lucide-react";
+import {
+  Github,
+  Instagram,
+  Linkedin,
+  Store,
+  Twitter,
+  Youtube,
+} from "lucide-react";
 import React from "react";
 
 export default function Footer() {
@@ -73,10 +80,41 @@ export default function Footer() {
         </div>
         <div className="w-full flex flex-col items-start gap-2">
           <div className="text-fg-3 flex items-center gap-2">
-            <Instagram />
-            <Youtube />
-            <Linkedin />
-            <Twitter />
+            <a
+              href="https://github.com/ln-dev7/the-french-tototte"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Github />
+            </a>
+            <a
+              href="http://x.com/ln_dev7"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Twitter />
+            </a>
+            <a
+              href="http://linkedin.com/in/lndev"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Linkedin />
+            </a>
+            <a
+              href="http://instagra.com/ln_dev7"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Instagram />
+            </a>
+            <a
+              href="http://youtube.com/c/LNDev"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Youtube />
+            </a>
           </div>
           <div className="w-full flex items-center gap-4">
             <h3 className="text-4xl text-fg-3 shrink-0">
