@@ -2,7 +2,6 @@ import React from "react";
 import Lines from "../atoms/lines";
 
 export default function Flavors() {
-  // fraise - menthe - bubble gum - spicy - bacon fumé - france - jus de mynthos - montazac et torez
   const flavors = [
     {
       name: "Fraise",
@@ -53,8 +52,8 @@ export default function Flavors() {
       id="flavors"
       className="relative w-full flex items-center justify-center"
     >
-    <Lines />
-      <div className="w-full max-w-3xl flex flex-col items-center justify-center gap-40 px-10 pt-28 pb-28">
+      <Lines />
+      <div className="w-full max-w-3xl flex flex-col items-center justify-center gap-40 px-10 pt-28 pb-28 z-10">
         <div className="flex items-end justify-center gap-4 relative">
           {flavors.map((flavor, index) => (
             <div

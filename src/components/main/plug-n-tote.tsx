@@ -17,7 +17,7 @@ export default function PlugNTote() {
       </div>
       <div className="relative w-full flex items-center justify-center gradient-plugntotte">
         <Lines />
-        <div className="w-full max-w-3xl flex flex-col items-center justify-center px-10 pb-20 pt-32">
+        <div className="w-full max-w-3xl flex flex-col items-center justify-center px-10 pb-20 pt-32 z-10">
           <div className="w-full flex items-center justify-between mb-16">
             <div className="flex flex-col items-start">
               <h3 className="text-6xl">

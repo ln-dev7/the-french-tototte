@@ -5,8 +5,8 @@ export default function Spotify() {
   return (
     <div className="relative w-full flex items-center justify-center gradient-spotify">
       <Lines />
-      <div className="w-full max-w-3xl flex flex-col items-center justify-center gap-16 px-10 py-20">
-        <div className="w-full h-full border border-fg-1 rounded-lg overflow-hidden z-10">
+      <div className="w-full max-w-3xl flex flex-col items-center justify-center gap-16 px-10 py-20 z-10">
+        <div className="w-full h-full border border-fg-1 rounded-lg overflow-hidden">
           <video
             autoPlay
             muted

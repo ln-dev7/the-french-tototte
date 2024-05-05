@@ -4,8 +4,8 @@ import Lines from "../atoms/lines";
 export default function Presentation() {
   return (
     <div className="relative w-full flex items-center justify-center">
-    <Lines />
-      <div className="w-full max-w-4xl flex flex-col items-center justify-center gap-52 px-10 pt-40 pb-40">
+      <Lines />
+      <div className="w-full max-w-4xl flex flex-col items-center justify-center gap-52 px-10 pt-40 pb-40 z-10">
         <img
           src="/presentation.png"
           alt="presentation image"
