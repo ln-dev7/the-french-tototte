@@ -2,15 +2,16 @@ import React from "react";
 
 export default function Mobile() {
   return (
-    <main className="w-full flex flex-col items-center gap-8 justify-center min-h-screen p-4">
+    <main className="relative w-full flex flex-col items-center gap-8 justify-center min-h-screen p-4">
       <img src="/logo.svg" alt="logo" className="w-28" />
       <div className="flex flex-col items-center gap-2">
         <p className="font-gustavo text-center">
-          Hello l&apos;ami(e), j&apos;ai eu la flemme de faire la version mobile, mais
-          t&apos;inquiète, ça va arriver un jour.
+          Hello l&apos;ami(e), j&apos;ai eu la flemme de faire la version
+          mobile, mais t&apos;inquiète, ça va arriver un jour.
         </p>
         <p className="font-gustavo text-center">
-          Entre temps, tu peux toujours visiter le site sur un écran plus large 😉
+          Entre temps, tu peux toujours visiter le site sur un écran plus large
+          😉
         </p>
         <p className="font-gustavo text-center">
           Ou alors contribuer sur{" "}
@@ -40,6 +41,13 @@ export default function Mobile() {
           Design By BastiUI
         </a>
       </div>
+      <a
+        href="https://github.com/ln-dev7/the-french-tototte?tab=readme-ov-file#credits"
+        className="underline underline-offset-2 font-medium absolute bottom-4 right-4 font-gustavo"
+        target="_blank"
+      >
+        Credits
+      </a>
     </main>
   );
 }

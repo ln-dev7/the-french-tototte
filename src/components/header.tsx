@@ -2,14 +2,14 @@
 import React, { useState, useEffect } from "react";
 
 export default function Header() {
-  const [showLogo, setShowLogo] = useState(false);
+  const [skipHero, setSkipHero] = useState(false);
 
   useEffect(() => {
     const toggleVisibility = () => {
       if (window.scrollY >= window.innerHeight) {
-        setShowLogo(true);
+        setSkipHero(true);
       } else {
-        setShowLogo(false);
+        setSkipHero(false);
       }
     };
     window.addEventListener("scroll", toggleVisibility);
@@ -17,12 +17,16 @@ export default function Header() {
   }, []);
 
   return (
-    <header className="fixed w-full top-0 flex items-center justify-center z-50">
-      <div className="w-full max-w-screen-2xl flex items-center justify-between px-10 py-6">
+    <header
+      className={`fixed w-full top-0 flex items-center justify-center z-50
+    ${skipHero ? "header-gradient" : "bg-transparent"}
+    `}
+    >
+      <div className="w-full max-w-screen-2xl flex items-center justify-between px-10 pt-6 pb-20">
         <div className="flex items-center justify-start w-[120px]">
           <img src="/icon.svg" alt="logo" className="w-8 h-8" />
         </div>
-        <div className={`items-center gap-4  ${showLogo ? "hidden" : "flex"}`}>
+        <div className={`items-center gap-4  ${skipHero ? "hidden" : "flex"}`}>
           <a
             href="https://x.com/ln_dev7"
             className="underline underline-offset-2"
@@ -40,7 +44,7 @@ export default function Header() {
         </div>
         <p
           className={`mix-blend-multiply text-2xl
-          ${showLogo ? "block" : "hidden"}
+          ${skipHero ? "block" : "hidden"}
         `}
         >
           the french tototte

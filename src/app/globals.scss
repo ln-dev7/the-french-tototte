@@ -15,15 +15,6 @@ body {
   }
 }
 
-.banner-mask {
-  background: linear-gradient(
-    180deg,
-    rgba($color: #fff, $alpha: 0.6) 0%,
-    rgba($color: #fff, $alpha: 0) 60%
-  );
-  transform: rotate(180deg);
-}
-
 .hover-link {
   position: relative;
   &::before {
@@ -42,6 +33,46 @@ body {
   &:hover::before {
     transform: scaleX(1);
   }
+}
+
+// Header Section
+.header-gradient {
+  background: linear-gradient(
+    180deg,
+    rgb(250, 246, 243) -40%,
+    rgba(255, 255, 255, 0.8) 44.964034346846844%,
+    rgba(255, 255, 255, 0.4) 61.922860360360374%,
+    rgba(255, 255, 255, 0) 74.11951013513516%
+  );
+  opacity: 1;
+}
+
+// Hero Section
+.hero-mask {
+  background: linear-gradient(
+    rgba(250, 246, 243, 0.1) 54%,
+    rgba(250, 246, 243, 0.4) 68%,
+    rgba(250, 246, 243, 0.6) 79%,
+    rgb(250, 246, 243) 96%
+  );
+  opacity: 1;
+}
+
+// Plug N Tote Section
+.gradient-plugntotte {
+  background: radial-gradient(
+    72.32% 75.14% at 50.9% 0%,
+    #d4c2b8 0%,
+    rgba(212, 194, 184, 0) 100%
+  );
+}
+
+.gradient-plugntotte-gif {
+  background: radial-gradient(
+    41.59% 95.53% at 50.9% 100%,
+    #d4c2b8 0%,
+    rgba(212, 194, 184, 0) 100%
+  );
 }
 
 // Flavors Section
@@ -86,6 +117,38 @@ body {
       }
     }
   }
+}
+
+.gradient-flavors-bottom {
+  background: radial-gradient(
+    53.35% 53.35% at 50% 0%,
+    #d3bfb0 0%,
+    rgba(235, 224, 216, 0) 100%
+  );
+}
+
+.gradient-flavors-top {
+  background: radial-gradient(
+    47.94% 47.5% at 50% 0%,
+    #ebe0d8 0%,
+    rgba(235, 224, 216, 0) 100%
+  );
+}
+
+// Spotify Section
+.gradient-spotify {
+  background: linear-gradient(
+    180deg,
+    rgba(235, 224, 216, 0) 0%,
+    #ebe0d8 33.33%,
+    #ebe0d8 66.67%,
+    rgba(235, 224, 216, 0) 100%
+  );
+}
+
+// Footers Section
+.gradient-footers {
+  background: linear-gradient(180deg, rgba(239, 241, 253, 0) 0%, #eff1fd 45%);
 }
 
 // Bento Section

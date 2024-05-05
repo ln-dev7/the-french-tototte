@@ -9,9 +9,9 @@ export default function Hero() {
         loop
         className="w-full h-full object-cover absolute inset-0"
       >
-        <source src="/banner-video.mp4" type="video/mp4" />
+        <source src="/hero-video.mp4" type="video/mp4" />
       </video>
-      <div className="banner-mask absolute w-full h-full z-10"></div>
+      <div className="hero-mask absolute w-full h-full z-10"></div>
       <div className="absolute bottom-20 w-full flex flex-col items-center justify-center z-20">
         <p className="mix-blend-multiply text-2xl my-2">the french tototte</p>
         <img src="/france-flag.svg" alt="france flag" className="" />

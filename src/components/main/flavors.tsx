@@ -52,8 +52,8 @@ export default function Flavors() {
       id="flavors"
       className="relative w-full flex items-center justify-center"
     >
-      <div className="w-full max-w-3xl flex flex-col items-center justify-center gap-52 px-10 pt-40 pb-40">
-        <div className="flex items-end justify-center gap-4">
+      <div className="w-full max-w-3xl flex flex-col items-center justify-center gap-40 px-10 pt-28 pb-28">
+        <div className="flex items-end justify-center gap-4 relative">
           {flavors.map((flavor, index) => (
             <div
               key={index}
@@ -83,6 +83,9 @@ export default function Flavors() {
               />
             </div>
           ))}
+
+          <div className="gradient-flavors-bottom absolute w-full -bottom-48 h-60"></div>
+          <div className="gradient-flavors-top absolute w-full rotate-180 bottom-12 h-60"></div>
         </div>
         <div className="w-full flex items-center justify-between font-gustavo">
           <div className="flex flex-col items-start gap-2 w-1/3">

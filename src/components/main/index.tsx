@@ -6,7 +6,6 @@ import Flavors from "./flavors";
 import Presentation from "./presentation";
 import Spotify from "./spotify";
 import Mynthos from "./mynthos";
-import Testimonials from "./testimonials";
 
 export default function Main() {
   return (
@@ -18,7 +17,6 @@ export default function Main() {
       <Presentation />
       <Spotify />
       <Mynthos />
-      <Testimonials />
     </main>
   );
 }

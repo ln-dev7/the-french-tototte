@@ -2,10 +2,10 @@ import React from "react";
 
 export default function Spotify() {
   return (
-    <div className="relative w-full flex items-center justify-center">
+    <div className="relative w-full flex items-center justify-center gradient-spotify">
       <div className="w-full max-w-3xl flex flex-col items-center justify-center gap-16 px-10 py-20">
-        <div className="border border-fg-1 rounded-lg overflow-hidden">
-          <video autoPlay muted loop className="w-full h-full object-cover">
+        <div className="w-full h-full border border-fg-1 rounded-lg overflow-hidden">
+          <video autoPlay muted loop className="w-full h-full object-cover bg-fg-3">
             <source src="/spotify.mp4" type="video/mp4" />
           </video>
         </div>
