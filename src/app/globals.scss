@@ -33,6 +33,17 @@ body {
   &:hover::before {
     transform: scaleX(1);
   }
+  &::after{
+    content: "";
+    width: 1px;
+    height: 200px;
+    background: linear-gradient(180deg, #513E40 0%, rgba(183, 140, 145, 0.00) 100%);
+    z-index: 30;
+    position: absolute;
+    top: 2.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+  }
 }
 
 // Header Section

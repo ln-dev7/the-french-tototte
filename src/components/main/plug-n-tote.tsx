@@ -1,19 +1,22 @@
 import React from "react";
+import Lines from "../atoms/lines";
 
 export default function PlugNTote() {
   return (
     <>
       <div className="relative w-full flex items-center justify-center">
+        <Lines />
         <div className="w-full max-w-3xl flex flex-col items-center justify-center px-10 pb-10 pt-40 -mb-40 z-10">
           <img
             src="/tototte.gif"
             alt="tototte"
-            className="w-full h-80 object-cover z-10"
+            className="w-full h-80 object-cover z-20"
           />
-          <div className="absolute w-[720px] h-[400px] flex items-center justify-between top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 gradient-plugntotte-gif -mt-5"></div>
+          <div className="absolute w-[720px] h-[400px] flex items-center justify-between top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 gradient-plugntotte-gif -mt-5 z-10"></div>
         </div>
       </div>
       <div className="relative w-full flex items-center justify-center gradient-plugntotte">
+        <Lines />
         <div className="w-full max-w-3xl flex flex-col items-center justify-center px-10 pb-20 pt-32">
           <div className="w-full flex items-center justify-between mb-16">
             <div className="flex flex-col items-start">

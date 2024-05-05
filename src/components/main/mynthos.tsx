@@ -1,8 +1,10 @@
 import React from "react";
+import Lines from "../atoms/lines";
 
 export default function Mynthos() {
   return (
     <div className="relative w-full flex items-center justify-center">
+    <Lines />
       <div className="w-full max-w-3xl flex items-center justify-center gap-20 px-10 pt-40 pb-52">
         <img src="/mynthos.svg" alt="mynthos" className="w-full" />
         <div className="">

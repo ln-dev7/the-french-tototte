@@ -1,8 +1,10 @@
 import React from "react";
+import Lines from "../atoms/lines";
 
 export default function Hero() {
   return (
     <div className="min-h-screen w-full relative">
+      <Lines className="z-10 opacity-10" />
       <video
         autoPlay
         muted

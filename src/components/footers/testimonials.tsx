@@ -1,10 +1,12 @@
 import { Twitch, Youtube } from "lucide-react";
 import React from "react";
+import Lines from "../atoms/lines";
 
 export default function Testimonials() {
   return (
     <div className="relative w-full flex items-center justify-center gradient-testimonials ">
-      <div className="w-full max-w-5xl flex flex-col items-center justify-center gap-52 px-10 pt-20 pb-44">
+      <Lines />
+      <div className="w-full max-w-5xl flex flex-col items-center justify-center gap-52 px-10 pt-20 pb-44 z-10">
         <div className="flex flex-col items-center">
           <h3 className="text-6xl text-center">
             ils ont sucote, <br />
