@@ -1,6 +1,6 @@
 # The French Tototte
 
-Ce projet a été développé avec [Next.js](https://nextjs.org/) et déployé [Vercel](https://vercel.com/). 
+Ce projet a été développé avec [Next.js](https://nextjs.org/) et déployé sur [Vercel](https://vercel.com/). 
 
 Il peut être utilisé par tout le monde, sous la seule contrainte de mentionner toutes les personnes qui ont participé à son développement.
 
