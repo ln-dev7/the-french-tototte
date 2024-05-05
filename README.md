@@ -1,6 +1,6 @@
 # The French Tototte
 
-Ce projet a été développé avec [Next.js](https://nextjs.org/) et [Vercel](https://vercel.com/). 
+Ce projet a été développé avec [Next.js](https://nextjs.org/) et déployé [Vercel](https://vercel.com/). 
 
 Il peut être utilisé par tout le monde, sous la seule contrainte de mentionner toutes les personnes qui ont participé à son développement.
 
@@ -22,3 +22,7 @@ Il peut être utilisé par tout le monde, sous la seule contrainte de mentionner
   - YouTube : [Lunathmusic](https://www.youtube.com/@lunathmusic)
 - Packaging par Illusion
   - YouTube : [Illusion-Graphisme](https://www.youtube.com/@illusion-graphisme)
+
+---
+
+**Disclaimer :** Ce projet est une marque fictive et toute ressemblance avec des marques existantes est purement fortuite.  
