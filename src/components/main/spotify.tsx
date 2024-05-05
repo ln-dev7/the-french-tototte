@@ -13,7 +13,7 @@ export default function Spotify() {
             loop
             className="w-full h-full object-cover bg-fg-3"
           >
-            <source src="/spotify.mp4" type="video/mp4" />
+            <source src="/spotify.webm" type="video/webm" />
           </video>
         </div>
         <div className="w-full px-10 flex items-start justify-between">

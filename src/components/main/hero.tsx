@@ -11,7 +11,7 @@ export default function Hero() {
         loop
         className="w-full h-full object-cover absolute inset-0"
       >
-        <source src="/hero-video.mp4" type="video/mp4" />
+        <source src="/hero-video.webm" type="video/webm" />
       </video>
       <div className="hero-mask absolute w-full h-full z-10"></div>
       <div className="absolute bottom-20 w-full flex flex-col items-center justify-center z-20">
