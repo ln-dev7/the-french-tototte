@@ -22,6 +22,8 @@ Il peut être utilisé par tout le monde, sous la seule contrainte de mentionner
   - YouTube : [Lunathmusic](https://www.youtube.com/@lunathmusic)
 - Packaging par Illusion
   - YouTube : [Illusion-Graphisme](https://www.youtube.com/@illusion-graphisme)
+- Musique non officielle
+  - Lien Suno : [https://suno.com/song/2c8e6973-a190-4db0-a6a0-321b7f545038](https://suno.com/song/2c8e6973-a190-4db0-a6a0-321b7f545038)
 
 ---
 
