@@ -7,7 +7,12 @@ export default function Spotify() {
       <Lines />
       <div className="w-full max-w-3xl flex flex-col items-center justify-center gap-16 px-10 py-20">
         <div className="w-full h-full border border-fg-1 rounded-lg overflow-hidden z-10">
-          <video autoPlay muted loop className="w-full h-full object-cover bg-fg-3">
+          <video
+            autoPlay
+            muted
+            loop
+            className="w-full h-full object-cover bg-fg-3"
+          >
             <source src="/spotify.mp4" type="video/mp4" />
           </video>
         </div>
@@ -16,9 +21,13 @@ export default function Spotify() {
             sucotez <br /> vos titres <br /> preferes
           </h3>
           <div className="font-gustavo">
-            <button className="border-2 border-fg-2 text-fg-2 font-medium flex items-center py-2 px-8 cursor-pointer">
-              Spotify Connect{" "}®
-            </button>
+            <a
+              href="https://suno.com/song/2c8e6973-a190-4db0-a6a0-321b7f545038"
+              target="_blank"
+              className="w-fit border-2 border-fg-2 text-fg-2 font-medium flex items-center py-2 px-8 cursor-pointer"
+            >
+              Spotify Connect ®
+            </a>
             <span className="text-fg-3 block mb-6 mt-2">
               En partenariat exclusif avec Spotify
             </span>

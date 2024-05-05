@@ -33,16 +33,40 @@ body {
   &:hover::before {
     transform: scaleX(1);
   }
-  &::after{
+  &::after {
     content: "";
     width: 1px;
     height: 200px;
-    background: linear-gradient(180deg, #513E40 0%, rgba(183, 140, 145, 0.00) 100%);
+    background: linear-gradient(
+      180deg,
+      #513e40 0%,
+      rgba(183, 140, 145, 0) 100%
+    );
     z-index: 30;
     position: absolute;
     top: 2.5rem;
     left: 50%;
     transform: translateX(-50%);
+  }
+}
+
+.button-link {
+  position: relative;
+  &::after {
+    content: "";
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    top: 50%;
+    left: 0;
+    transform: translateX(-100%) translateY(-50%);
+    background: url("/rect-colors.png") no-repeat center center;
+    background-size: cover;
+    transition: 0.3s ease-in-out;
+  }
+  &:hover::after {
+    transform: translateY(-50%);
+    left: 100%;
   }
 }
 
@@ -67,6 +91,29 @@ body {
     rgb(250, 246, 243) 96%
   );
   opacity: 1;
+}
+
+.text-hero {
+  background: url("/rect-colors-hero-text.png");
+  background-size: cover;
+  color: #5d4043;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-position: 100% 100%;
+  animation: textheroanimation 3s ease-out infinite backwards;
+
+  @keyframes textheroanimation {
+    0% {
+      background-position: 100% 100%;
+    }
+    50% {
+      background-position: -10% -100%;
+    }
+    100% {
+      background-position: -10% -100%;
+    }
+  }
 }
 
 // Plug N Tote Section

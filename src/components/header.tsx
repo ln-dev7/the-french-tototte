@@ -1,5 +1,6 @@
 "use client";
 import React, { useState, useEffect } from "react";
+import ButtonLink from "./atoms/button-link";
 
 export default function Header() {
   const [skipHero, setSkipHero] = useState(false);
@@ -49,12 +50,7 @@ export default function Header() {
         >
           the french tototte
         </p>
-        <a
-          href="#choice"
-          className="bg-fg-2 font-medium font-gustavo text-bg-2 py-2 px-8 mix-blend-multiply"
-        >
-          Acheter
-        </a>
+        <ButtonLink href="#choice">Acheter</ButtonLink>
       </div>
     </header>
   );

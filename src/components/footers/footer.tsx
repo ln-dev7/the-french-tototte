@@ -7,6 +7,7 @@ import {
   Youtube,
 } from "lucide-react";
 import React from "react";
+import ButtonLink from "../atoms/button-link";
 
 export default function Footer() {
   return (
@@ -50,12 +51,12 @@ export default function Footer() {
               </div>
             </div>
             <div className="w-full flex flex-col items-center gap-4">
-              <a
-                href="#"
-                className="font-medium font-gustavo w-full py-2 px-8 text-white bg-fg-2 text-[15px] text-center"
+              <ButtonLink
+                href="https://lndev.me"
+                className="w-full text-[15px] text-center"
               >
                 Ajouter au Panier
-              </a>
+              </ButtonLink>
               <p className="font-gustavo text-fg-3 text-xxs text-justify">
                 The French Tototte est couverte par une garantie limitée contre
                 les défauts de fabrication pour une période de 2 mois à compter
@@ -131,7 +132,13 @@ export default function Footer() {
                 print par Lunath & Packaging par Illusion
               </p>
             </div>
-              <a href="http://github.com/the-french-tototte" className="underline underline-offset-2 text-white" target="_blank">GitHub</a>
+            <a
+              href="http://github.com/the-french-tototte"
+              className="underline underline-offset-2 text-white"
+              target="_blank"
+            >
+              GitHub
+            </a>
           </div>
         </div>
       </div>
