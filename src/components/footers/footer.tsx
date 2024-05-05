@@ -133,7 +133,7 @@ export default function Footer() {
               </p>
             </div>
             <a
-              href="http://github.com/the-french-tototte"
+              href="http://github.com/n-dev7/the-french-tototte"
               className="underline underline-offset-2 text-white"
               target="_blank"
             >
