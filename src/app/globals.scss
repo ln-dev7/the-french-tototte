@@ -44,6 +44,7 @@ body {
   }
 }
 
+// Flavors Section
 .flavor {
   &-image {
     transition: 0.3s ease-in-out;
@@ -87,6 +88,7 @@ body {
   }
 }
 
+// Bento Section
 .bento {
   display: grid;
   grid-gap: 1rem;
@@ -161,6 +163,7 @@ body {
   }
 }
 
+// Swiper JS
 .swiper {
   height: 100% !important;
   width: 100% !important;
